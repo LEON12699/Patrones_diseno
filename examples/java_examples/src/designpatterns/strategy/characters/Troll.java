@@ -1,10 +1,7 @@
 
 package designpatterns.strategy.characters;
 
-/**
- *
- * @author leon12699
- */
+
 public class Troll extends Character{
 
     public Troll() {
