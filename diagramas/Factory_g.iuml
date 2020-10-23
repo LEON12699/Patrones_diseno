@@ -1,0 +1,5 @@
+@startuml Factory structure
+
+classAlias "multiplicityRole1" o--> "multiplicityRole2" typeAlias : label <<stereotype>> >
+
+@enduml
