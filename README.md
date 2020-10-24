@@ -12,7 +12,7 @@
 
 #### Estructura
 
-![Factory structure](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/LEON12699/Patrones_diseno/master/diagramas/Factory_g.iuml)
+![Factory structure](http://www.plantuml.com/plantuml/png/bP1D2i9038NtEKMMYlG6BgI2hWIl46VI7pgTI2PTIEtT7MaLqPLPllVolP1TCb8R-e07SYPwmsGwE1kK8NLjl99IZovGIZX2IQwhLORezn94CRHrOqTbZb2AUjPPleISWmcWZSPQaMCyg_YCXPcqT8s0UJOuqYMtPct2QdPER8turNe9o9MLh9MObOoT8Nk9JjduFzXpVpa6j_UYU6DU5tvXSViRULkV-ui8Euu-__C1 "Factory structure")
 
 </details>
 
@@ -21,7 +21,8 @@
 
 #### Estructura
 
-![AbstractFactory structure](http://www.plantuml.complantuml/proxy?src=https://raw.githubusercontent.com/LEON12699/Patrones_diseno/master/diagramas/AbstractFactory.iuml)
+![AbstractFactory structure](http://www.plantuml.com/plantuml/svg/hPF1JiCm38RlVef8NE2GIkaHJMXB9RZo2cdgZMXPCZdE0GtUdQ2rXRLZ0ub8ETZ-_y-seYmJ6-AyysBL9YPZ-R7SIA-YHDbo9eIqTM5loEo4zIObSG1jx7P3COUkYJwIy6xpma-46417wf2EwTON7Rm3kC18QsDnxF9CiIlu5HoHGwWcSNt1gq-rUkBLnGldxFs21n3bD8I6SMXtUpTFwf8iA_Jm9WPBoDX3rBzGwhzJ70OMqkEQvSDqCu3fMoxUgholPiF_KbT_0OVXFfNLjrUxN9y3z8b0golr0XXPOY6bd8qeRhmBUD_wZ32whaj7h3ghLIFhfpeiCNJb-tm0 "AbstractFactory structure")
+
 
 
 </details>
