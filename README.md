@@ -21,7 +21,7 @@
 
 #### Estructura
 
-![Abstract Factory structure](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/LEON12699/Patrones_diseno/master/diagramas/AbstractFactory.iuml)
+![AbstractFactory structure](http://www.plantuml.complantuml/proxy?src=https://raw.githubusercontent.com/LEON12699/Patrones_diseno/master/diagramas/AbstractFactory.iuml)
 
 
 </details>
