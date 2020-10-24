@@ -12,7 +12,7 @@
 
 #### Estructura
 
-![Factory structure](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/LEON12699/Patrones_diseno/master/diagramas/Factory_g.iuml)
+![Factory structure](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/LEON12699/Patrones_diseno/master/diagramas/Factory_g.iuml)
 
 
 </details>
