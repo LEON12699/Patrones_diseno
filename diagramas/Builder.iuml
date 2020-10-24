@@ -1,0 +1,47 @@
+@startuml Builder structure
+skinparam class {
+BackgroundColor lightGreen
+BorderColor black
+}
+
+abstract AbstractBuilder{
+    reset()
+    buidlStepA()
+    buildStepB()
+    buildStepC()
+
+} 
+
+class ConcreteBuilder1{
+    -result : Product1
+    reset()
+    buidlStepA()
+    buildStepB()
+    buildStepC()
+    getResult():Product1
+}
+
+class ConcreteBuilder2{
+    -result : Product2
+    reset()
+    buidlStepA()
+    buildStepB()
+    buildStepC()
+    getResult():Product2
+}   
+
+class Director{
+    -builder
+    Director( builder)
+    changeBuilder( builder )
+    make( type )
+}
+
+AbstractBuilder <|-- ConcreteBuilder1
+AbstractBuilder <|-- ConcreteBuilder2
+ConcreteBuilder2 --> Product2
+ConcreteBuilder1 -->Product1
+
+AbstractBuilder -right-o Director :build
+
+@enduml
