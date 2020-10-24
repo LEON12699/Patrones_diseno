@@ -29,6 +29,11 @@
 
 <details>
     <summary style="color:green">Builder</summary>
+
+#### Estructura
+
+![Builder structure](http://www.plantuml.com/plantuml/svg/jP9DQiCm48NtSufPEWijugKf9R4BsPRs1B8yECQAPKQZHKbzzye_SS0XK2ZrIlv6UlFcIGSlcYLSBEQXiHKnUk5W9321RvkkrwmlQAps7g-GQzFMx49N5SuwHjlKPpanKGUvutXwngMD-s00q6LKqqRmk2oM9bV0-35vacGthSlGLFPJg3_UWQr6a6z14G4C232xAbndc8GMwVsihQ9ui88PlhEhua3xlxOSGKtoCUackspL7PuuIPyuIV_9IHf3mJMMjuR9Y5kYLkNiQVgvbH9Sw2nfphghR-RN6ix5YsufGVdgAO8uyUP2yULRgOUh-DMk5BO0bNgzXxKL7QjhzWyT58zFKhbrICocGG0Er5NndVy0 "Builder structure")
+
 </details>
 
 <details>
