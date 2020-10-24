@@ -1,0 +1,53 @@
+@startuml AbstractFactory structure
+skinparam class {
+BackgroundColor lightGreen
+BorderColor black
+}
+
+interface AbstractProductA
+class ProductA1
+class ProductA2
+
+interface AbstractProductB
+class ProductB1
+class ProductB2
+
+
+
+
+interface AbstractFactory{
+    CreateProductA()
+    CreateProductB()
+}
+
+
+class ConcreteFactory1{
+    CreateProductA()
+    CreateProductB()
+}
+
+
+class ConcreteFactory2{
+    CreateProductA()
+    CreateProductB()
+}
+
+
+client -left-> AbstractFactory
+
+AbstractFactory <|.up. ConcreteFactory1
+AbstractFactory <|.up. ConcreteFactory2
+
+AbstractProductA <|.. ProductA1
+AbstractProductA <|.. ProductA2
+
+AbstractProductB <|.. ProductB1
+AbstractProductB <|.. ProductB2
+
+ProductA2 <--- ConcreteFactory2 #line:blue
+ProductB2 <--- ConcreteFactory2 #line:blue
+
+ProductA1 <--- ConcreteFactory1
+ProductB1 <--- ConcreteFactory1
+
+@enduml
