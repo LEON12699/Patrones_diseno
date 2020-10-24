@@ -38,10 +38,23 @@
 
 <details>
     <summary style="color:green">Prototype</summary>
+
+#### Estructura
+
+![Prototype structure](http://www.plantuml.com/plantuml/svg/TL0n3eCm3Dpz2eymv0EegX0CNVk54Dms8YJ8SOQAzkzDYmHLKRtvTBxpNHr5iwJHuPc31BbFX54u6KbC40Vh9yrwHEDqZ3X3eyrmvP1ytmON69sztkJ4H1wQm3tn0dSky-09OBqGNxIXJNy6p6DSy5IKrGg_sOjB6xnX4lgvKAX5s7P9wBFlQ0LEQuRolyaMzF1GQY-Jlx3a1TNngvCgHGAeoVUvgnS0 "Prototype structure")
+
 </details>
+
+
 
 <details>
     <summary style="color:green">Singleton</summary>
+
+### Estructura
+
+![Singleton structure](http://www.plantuml.com/plantuml/svg/JKyx3i8m3Drz2ezqo0KwL5KP43Cd2AaLegOESfofuku48beysS_lOuzPhMXP8zu2-qYQ6BDASLg482-1drRiYYxQd763oRh5IoeydrDCWZ7uXrw4Y65ACfCq-1uh3ru0JNTuRu2rp9LhBZlgzqt3z_7KVG5F-gEUEkmFe-OTY1MDV6ummn42iFV637yY68dd-kmR "Singleton structure")
+
+
 </details>
 
 ## Patrones estructurales

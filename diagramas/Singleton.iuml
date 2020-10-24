@@ -1,0 +1,17 @@
+@startuml Singleton structure
+skinparam class {
+BackgroundColor lightGreen
+BorderColor black
+}
+
+class Singleton {
+    -Instance:Singleton
+    -Singleton()
+    getInstance() : Singleton
+}
+
+client -right->Singleton 
+
+Singleton--> Singleton
+
+@enduml

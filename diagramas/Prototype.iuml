@@ -1,0 +1,20 @@
+@startuml Prototype structure
+skinparam class {
+BackgroundColor lightGreen
+BorderColor black
+}
+
+interface Prototype{
+    clone():Prototype
+}
+
+class ConcretePrototype{
+    - attribute
+    ConcretePrototype( prototype )
+    clone():Prototype
+}
+
+Prototype <|-- ConcretePrototype
+client -> Prototype :use
+
+@enduml
