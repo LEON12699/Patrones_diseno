@@ -124,6 +124,11 @@
 
 <details>
     <summary style="color:green">Proxy</summary>
+
+### Estructura
+
+![Proxy structure](http://www.plantuml.com/plantuml/svg/TP71JW9138RlVOecNl2m6oySJ0m1J8ZSY3x1C5Dnt64AdOveSD_T2IiHNEZnxvVsIpjEQaJpEk12-FCBaqgsceKWDJvkZ9Wrsc1ImZrCZMrMmZcwHmuiU3ERJOPtzp1bSIHTjWm5Wea8xqw35i179Narbl0bBz_9wXwmbD0sKzB1BK2B0DskPpBX2jKUcOFlrUuyVh0rwZa-cUX2qUjGN_A6Zjl-d7hyFxmC_XLw-AxhKy6p_205lM5OcevtiRxW1TtXA_6hDwr65u1-X5KrEdC065DqvOq_ "Proxy structure")
+
 </details>
 
 

@@ -1,0 +1,38 @@
+@startuml Proxy structure
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
+interface Subject{
+    request()
+
+} 
+
+class RealSubject{
+    request()
+}
+
+class Proxy{
+    request()
+}
+
+class InvocationHandlerC{
+    invoke()
+
+} 
+
+interface InvocationHandler{
+    invoke()
+}
+
+
+Subject<|.. RealSubject
+Subject<|.. Proxy
+InvocationHandler <|.down. InvocationHandlerC
+Proxy -right->InvocationHandlerC
+InvocationHandlerC --> RealSubject
+
+
+@enduml
