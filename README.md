@@ -158,6 +158,8 @@
 
 ### Estructura
 
+![Interpreter structure](http://www.plantuml.com/plantuml/svg/bL512i8m4BplAnQyw24V495gzU35anz8qr23QIARBGhgtrsjM0yHT0zX67PcPqYHM1DthSTDO4j7il9YOkeCTsG1qi65eoRTel4w9Rp0Kfj3Gx4BTHbz91ojdWFBIBMbdgkyBC62A9u-YHi0w4hSjM5SlC3wB5TJSZ68ESgyaupHHC5ddcBPWyd3eW-oizIweDaE-X_aWtxxe9uM_Yy7CIYziu5HgVcBVJFacZshUQORPEhEhahbUdpTpMQ6B8jHucLYG653BVzz1m00 "Interpreter structure")
+
 </details>
 
 <details>

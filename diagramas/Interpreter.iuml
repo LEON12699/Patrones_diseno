@@ -1,0 +1,33 @@
+@startuml Interpreter structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+abstract AbstractExpression {
+    Interpret( context: Context)
+}
+
+class TerminateExpression{
+    Interpret( context: Context)
+
+}
+
+class NonterminalExpression{
+    Interpret( context: Context)
+}
+
+Client -->Context
+Client -right-> AbstractExpression
+AbstractExpression <|-- TerminateExpression
+AbstractExpression <|-- NonterminalExpression
+NonterminalExpression o-->AbstractExpression
+
+
+
+
+
+@enduml
