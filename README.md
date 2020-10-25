@@ -167,6 +167,8 @@
 
 ### Estructura
 
+![Iterator structure](http://www.plantuml.com/plantuml/svg/bL713e8m3BttAvPuqGD-0J4YNhpu3tNKGHoRwOgQ8F_k8WeaNBINhgzzxtNRDWYoDBLL1o56yQo2SAEbOG88byfTaR5Msc88geKTwejXtxWYzpOEB_RlW9tdWhZ7JZOEGSRixrEW0u3AHPSpQXhjMb0nIWn7UiXozQxSU6Ig_OrYqKtPcJ5C1eK-TCqKYwzcFzsld7iNcq83urV2j_V7VkDMQMBfB8dARKLEe4yguSgKaco6oyFm2kbplPvPJmMd_G666J9wpCG0jkIA-DKl "Iterator structure")
+
 </details>
  
 <details>

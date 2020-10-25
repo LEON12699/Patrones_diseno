@@ -1,0 +1,37 @@
+@startuml Iterator structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface Iterator {
+    hasNext()
+    next()
+    remove()
+}
+
+interface Aggregate {
+    createIterator()
+}
+
+class ConcreteAggregate{
+    createIterator()
+}
+
+class ConcreteIterator{
+    hasNext()
+    next()
+    remove()
+}
+
+Aggregate <-left- Client
+Client -right-> Iterator
+Iterator <|.. ConcreteIterator
+Aggregate <|.. ConcreteAggregate
+ConcreteAggregate -right-> ConcreteIterator
+
+
+@enduml
