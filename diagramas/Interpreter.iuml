@@ -26,8 +26,4 @@ AbstractExpression <|-- TerminateExpression
 AbstractExpression <|-- NonterminalExpression
 NonterminalExpression o-->AbstractExpression
 
-
-
-
-
 @enduml

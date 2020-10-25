@@ -1,0 +1,42 @@
+@startuml Mediator structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface Mediator {
+    notify(sender)
+}
+
+
+class ConcreteColleague1{
+    m: Mediator 
+    operationA()
+}
+
+class ConcreteColleague2{
+    m: Mediator 
+    operationB()
+}
+
+class ConcreteMediator{
+    component1: ConcreteColleague1
+    component2: ConcreteColleague2
+    notify( sender )
+    reactComponent1()
+    reactComponent2()
+
+}
+
+
+Mediator <|.. ConcreteMediator
+ConcreteColleague1 --> Mediator
+ConcreteColleague2 --> Mediator
+ConcreteMediator *--> ConcreteColleague1
+ConcreteMediator *--> ConcreteColleague2
+
+
+@enduml

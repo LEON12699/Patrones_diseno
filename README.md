@@ -176,6 +176,9 @@
 
 ### Estructura
 
+![Mediator structure](http://www.plantuml.com/plantuml/svg/ZLB1Qa8n4BplLmHwUHOKp55AqMUl_OWqRvLWNlQnsL2AxRyt9bGjHjezpixCpeIienYMD7hrYeCpGgoYSBAI607YmON9i1cLzIP6TOJUsCEUAOLXIpwJ7rxAG4yy85VipMSIR9Zf_Hhu0W0N17bdB5xE7K7b2IHkzz553DbcLhZrv9Q2PHJCJXxDFk6o2iRLnQ80D24RSHGsNT7VaUk_v7rB_iEjOalZH063B5UDVByfka7HrvLLxQnc1MGqLWhnPDKrG9t1yZxd_4-VYyLDKhWDfkRpPtL_hzlxyvd7qxfHzvz4dIElSzNyrxu1 "Mediator structure")
+
+
 </details>
 
 <details>
