@@ -77,6 +77,11 @@
 
 <details>
     <summary style="color:green">Bridgge</summary>
+
+### Estructura
+
+![Bridge structure](http://www.plantuml.com/plantuml/svg/fL71QiCm3BthAmIxR0U7DR33HXbD2eLTzmUkhQQcjXLaXntQ_llSXh6aCCQORk_fFJq9hLBMaeVWiHLdEyAKPJ1v489qSB7NeWCQhrF28xJQ73hX8TerUnQyssoQfyTdQ5aioSXjVH518y8VK-8CC4vfjYL1c-mu7W5BkHTy2xsdG37h2trbkIUveli7E2E0YvbafmtTYCSPWVAUxQ9elr5zSNwbhZaQeKnpy-9VxlfNz-HMP2MkssVrUdFi7EBoL5NLJ-l-HLpFqfSdfHI-qyv5ifC6m8gYBU__1000 "Bridge structure")
+
 </details>
 
 
