@@ -87,6 +87,11 @@
 
 <details>
     <summary style="color:green">Composite</summary>
+
+### Estructura
+
+![Composite structure](http://www.plantuml.com/plantuml/svg/TP71JiCm44Jl-nKhSKaEZdhX04AeRQIU-8EAWx6tgLN7hjPsGKhpxuIOuY24Z_DcPyVsEaJ9CVKMMz-VVJ2HC4HEAYOc22VZpf9bZyhA4720hLIdZdroklNMCzxjTflxrGDiFMlYhBtPoGGRPl--54O0uoBnGIhAsnovE01EXpv8fKXL3J0YGDxsqoXxX3eQgvaSFfPntB_EK6fTeLg2UjQPUd-XtoYJZc9x2wpg1VvEB9N6Mw4NaeVXBsoj-Lees7J7A9vB4fGsJzUccUSHoaCtpVKVjn2-N1zWJKvFV_G9 "Composite structure")
+
 </details>
 
 <details>
