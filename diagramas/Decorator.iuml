@@ -1,0 +1,41 @@
+@startuml Decorator structure
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
+interface Component{
+    execute()
+
+} 
+
+class Decorator{
+    -wrappee : Component []
+    Decorator ( c: Component )
+    execute()
+}
+
+class ConcreteComponent{
+    execute()
+}
+
+class ConcreteDecoratorA{
+    execute()
+    extra()
+}
+
+class ConcreteDecoratorB{
+    execute()
+    extra()
+}
+
+Client -right-> Component
+Component <|.. ConcreteComponent
+Component <|.. Decorator
+Decorator <|-- ConcreteDecoratorA
+Decorator <|-- ConcreteDecoratorB
+
+
+
+@enduml

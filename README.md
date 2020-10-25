@@ -96,6 +96,11 @@
 
 <details>
     <summary style="color:green">Decorator</summary>
+    
+### Estructura
+
+![Decorator structure](http://www.plantuml.com/plantuml/svg/XPB1Ri8m38RlVWfBky0XQ9STG6YYxSHBJ3k4r6CLQL8vZfW4VNUoLMjGsOPliJ_x_srb4qIpnDRY2ndFMZnZ48v68XE4G-CwpRf5OtK8U89IcyEUVNHrvMrY7xRRukbn2QNdcdZ8xMo2e63sn-j43z0u8NxNXh3oRUSTEJa1fg1FCb5eDWVe4M1G6nqDZ3goxZeYNELkV7txhcNpCpJNzVbaVFyplFBEC0dzQUI673MAAJgyXFM_RUMTjiesNuuLD_iFKSzv2SZhhC-BnQtrAJ1AGhxB-gpKBwlS9Kf8iI5Nfpzo0G00 "Decorator structure")
+
 </details>
 
 
