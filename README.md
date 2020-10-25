@@ -207,6 +207,8 @@
 
 ### Estructura
 
+![State structure](http://www.plantuml.com/plantuml/svg/ZP71Ri8m38RlVWfBNBf3UO89GRixXps1IRqI4MBakDeasBil90KcJlWKVRB_ptBMoKXjEWR4JoDZJAQJiqaP81ryF97I4LsWbF0C7Rd3g3B5ePSWYekFKj293goLxK9kWesgVFy7lm3Wex5-aUFPTGRCDSZsn4hc9MwQjsVKPNITxSiAlUI87wk3wHfINZDkVFJcAPJqckJs54Ske4aF_9BJtPHEsMf6gcPNVIz6bLtPRalEmqKnCtnlM-o3vsXGJxDSNbPFwdkpjEh7lRMhUiPyd3N78V_X7m00 "State structure")
+
 </details>
 
 

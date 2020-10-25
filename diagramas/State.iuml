@@ -1,0 +1,36 @@
+@startuml  State structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface State {
+    doOperationA()
+    doOperationB()
+}
+
+
+Class Context{
+    state
+    Context(initialState)
+    changeState(state)
+    doOperationA()
+    doOperationB()
+}
+
+class ConcreteStates{
+    context
+    doOperationA()
+    doOperationB()
+    setContext(context)
+}
+
+Context <-- Client
+State ..|> ConcreteStates
+Context o-right-> State
+
+
+@enduml
