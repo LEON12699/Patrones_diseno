@@ -96,7 +96,7 @@
 
 <details>
     <summary style="color:green">Decorator</summary>
-    
+
 ### Estructura
 
 ![Decorator structure](http://www.plantuml.com/plantuml/svg/XPB1Ri8m38RlVWfBky0XQ9STG6YYxSHBJ3k4r6CLQL8vZfW4VNUoLMjGsOPliJ_x_srb4qIpnDRY2ndFMZnZ48v68XE4G-CwpRf5OtK8U89IcyEUVNHrvMrY7xRRukbn2QNdcdZ8xMo2e63sn-j43z0u8NxNXh3oRUSTEJa1fg1FCb5eDWVe4M1G6nqDZ3goxZeYNELkV7txhcNpCpJNzVbaVFyplFBEC0dzQUI673MAAJgyXFM_RUMTjiesNuuLD_iFKSzv2SZhhC-BnQtrAJ1AGhxB-gpKBwlS9Kf8iI5Nfpzo0G00 "Decorator structure")
@@ -115,6 +115,11 @@
 
 <details>
     <summary style="color:green">Flyweight</summary>
+
+### Estructura
+
+![Flyweight structure](http://www.plantuml.com/plantuml/svg/XP9BRy8m48Jl-ojMwWKEGRtqK5GX7bAadgkUgXwCimGBnnkjDm94-Uyr2I8jVU2RTyRVpaYUHZMYJUKnz_ijkNAj65KQguqGn8qBjH5JeVKcHZp0tDXDATo4Oi6U1U_oVFPm_mXpbeAacorzCi5CXBTV1qS05vHaPIprsmw0wGZLf2wKBsgKsWdN94OTXm7jL5o8pewnbOS0HmJe4bqukR7AikzmrjWrZNinlhstyvAqhpbejvhBMXoU8dRO1GShf7GLatPa6wN1oHauFLcoAbSuVWxn7B9hSCQyXhWsGiLDN7TJCITqAlSDZZFlprY0wyB8cQULPfEBq5lmwMDKy3QCVlRvpVHdMbXuHq4nooRuhtYRqDJ9TjqXrPfIAD8l_0G0 "Flyweight structure")
+
 </details>
 
 <details>

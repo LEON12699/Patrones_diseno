@@ -1,0 +1,41 @@
+@startuml Flyweight structure
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
+interface Flyweight{
+    repetingState
+    operation(extrinsic: State)
+
+} 
+
+class FlyweightFactory{
+    cache: Flyweights[]
+    getFlyweight ( repeatingState )
+}
+
+class ConcreteFlyweight{
+    execute()
+}
+note bottom :InstrinsicState
+
+class UnsharedConcreteFlyweight{
+    execute()
+    extra()
+} 
+
+note bottom:AllState
+
+
+
+FlyweightFactory o-left->Flyweight
+Flyweight <|.down. ConcreteFlyweight
+Flyweight <|.down. UnsharedConcreteFlyweight
+Client --> ConcreteFlyweight
+Client --> UnsharedConcreteFlyweight
+Client -up-> FlyweightFactory
+
+
+@enduml
