@@ -1,0 +1,33 @@
+@startuml Bridge structure
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
+class Abstraction{
+    i: Implementation
+    operation()
+} 
+
+interface Implementation{
+    method1()
+    method2()
+}
+
+class ConcreteImplementation1{
+    method1()
+    method2()
+}
+
+class ConcreteImplementation2{
+    method1()
+    method2()
+}
+
+Abstraction o-right->Implementation
+Implementation <|... ConcreteImplementation1
+Implementation <|... ConcreteImplementation2
+Abstraction <|--- RefinedAbstraction
+
+@enduml
