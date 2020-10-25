@@ -1,0 +1,30 @@
+@startuml Composite structure
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
+interface Component{
+    execute()
+
+} 
+
+class Composite{
+    -children : Component []
+    add( c: Component )
+    remove( c: Component)
+    getChildren (): Component[]
+    execute()
+}
+
+class Leaf{
+    execute()
+}
+
+Client -right-> Component
+Component <|.. Leaf 
+Composite ..|> Component
+Component <--o Composite
+
+@enduml

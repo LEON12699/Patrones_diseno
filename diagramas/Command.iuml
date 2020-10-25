@@ -1,0 +1,36 @@
+@startuml Command structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface Command {
+    execute()
+    undo ()
+}
+
+class Invoker{
+    command 
+    setCommand()
+}
+
+class ConcreteCommand{
+    -params
+    -Receiver
+    execute()
+    undo()
+}
+
+class Receiver{
+    action()
+}
+
+Command <|.. ConcreteCommand
+ConcreteCommand -left-> Receiver
+Invoker o-right-> Command
+Client -->Receiver
+Client ..>ConcreteCommand
+@enduml

@@ -1,0 +1,30 @@
+@startuml ChainOfResponsability structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface Handler {
+    succesor: Handler
+    HandlerRequest( request )
+
+}
+
+class ConcreteHandler1{
+    HandlerRequest( request )
+}
+
+class ConcreteHandler2{
+    HandlerRequest( request )
+}
+
+Client -right-> Handler
+Handler <|.. ConcreteHandler1
+Handler <|.. ConcreteHandler2
+Handler --> Handler
+
+
+@enduml

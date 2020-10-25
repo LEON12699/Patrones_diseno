@@ -136,51 +136,88 @@
 
 <details>
     <summary style="color:green">Chain of Responsibility</summary>
+
+### Estructura
+
+![ChainOfResponsability structure](http://www.plantuml.com/plantuml/svg/ZL5DQm9H3BpdLmHwgOSLz5YAMDT3RmN_GNmRzU7RF4toACNsltTrLGJfnvo6IMQOaAavgPSsORsXA6-h1TikYz4ofkWVQAubU546i6sK7Icr61APuG5c5BPhpKMQEgUi-30_0MPP6zPUMwPk2LvKy_kjy0K0KPnrHO7nbQH9h5qaTh0I0blMfuj-KizymVl2ve-eFS417CFwIdMMeEnytXqT_d3-P1p_mrYdoE9OQLnll9fSkrvkUVuS3kyA_JeTNwVLJHx0bANfFlGD "ChainOfResponsability structure")
+
 </details>
 
 <details>
     <summary style="color:green">Command</summary>
+
+#### Estructura
+
+![Command structure](http://www.plantuml.com/plantuml/svg/TL5BJiGm3Dtx59ROm28z0Qg6AHkst22adY5g6YF76P06xaveCbLL2Q_iv_UHvKDIAvhdW0FFiuqZ9fNiD0i1fCd73ojsHXTiIdY5etNJMJZ7SU30WdVFIy6HPIIfs5ie97WIuSyjy0C0FYh9oJfQqww0fUYBN5QwVrYcuivO-gAekI_nmXD9vRgcN8P4sfos_86Z4r9ggwepooMfzg_ao5z8_adVcjserSKwzHph_dR3utVNxJDXDwC9T5BJhtRGZa8sui_lVwjL6Zn5HMFwbToWhkltEGUAOtdVBm00 "Command structure")
+
+
 </details>
 
 <details>
     <summary style="color:green">Interpreter </summary>
+
+### Estructura
+
 </details>
 
 <details>
     <summary style="color:green">Iterator</summary>
+
+### Estructura
+
 </details>
  
 <details>
     <summary style="color:green">Mediator</summary>
+
+### Estructura
+
 </details>
 
 <details>
     <summary style="color:green">Memento</summary>
+
+### Estructura
+
 </details>
 
 
 <details>
     <summary style="color:green">Observer</summary>
+
+### Estructura
+
 </details>
 
 
 <details>
     <summary style="color:green">State </summary>
+
+### Estructura
+
 </details>
 
 
 <details>
     <summary style="color:green">Strategy </summary>
+
+### Estructura
+
 </details>
 
 
 <details>
     <summary style="color:green">Template Method </summary>
+
+### Estructura
 </details>
 
 
 <details>
     <summary style="color:green">Visitor </summary>
+
+### Estructura
+
 </details>
 
 

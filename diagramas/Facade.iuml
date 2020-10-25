@@ -1,11 +1,27 @@
 @startuml Facade structure
 
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
 package "Subsytem " #DDDDDD {
-    Concrete1Subsytem <--Concrete2Subsytem
-    Concrete2Subsytem <-- Concrete1Subsytem
+    Concrete1Subsytem <|--Concrete2Subsytem
+    Concrete2Subsytem <-- Concrete3Subsytem
     Concrete4Subsytem --> Concrete3Subsytem 
 }
 
+class Facade {
+    linkSubSystemObjects
+    SubSystemOperation()
+
+}
+
+Facade --> Concrete1Subsytem
+Facade --> Concrete3Subsytem
+Facade --> Concrete4Subsytem
+Client -right->Facade
 
 
 @enduml
