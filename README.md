@@ -197,6 +197,8 @@
 
 ### Estructura
 
+![Observer structure](http://www.plantuml.com/plantuml/svg/hP8zJmCn38Pt_uf8B6L8koE4IilEq15ro2M-3teNLuvJX0h_dLplSj13R7Zpuu_NTh8EObXYrohrN0Ja4x8Amj5AP0G8XyOV3PjEsTQ4eCwmCVPGCKNljjGIgvkdYy66s24Fh6XJ4ZmoqzjFy0a0ZHVaqbXKkrYyefNKKYMZKJpSJNEyx2yHnge9gIZZnUs8EphX37gIfdpFC2HwhPaZWsOyEYCu90thRSbRHi4_ydfdjL8aTRfIXrAJwpL-ru-xdVzXWPvMA3lv7Y5CRk_rwlcMzn_BvNm8cDxrAfefp87IkiLIzCEyJnRHcfkgJWdJEG7Mw5twH5y0 "Observer structure")
+
 </details>
 
 

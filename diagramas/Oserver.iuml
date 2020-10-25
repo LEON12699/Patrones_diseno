@@ -1,0 +1,41 @@
+@startuml  Observer structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface Subject {
+    observers: Observer[]
+    registerObserver()
+    removeObserver()
+    notifyObservers()
+}
+
+
+interface Observer{
+    update()
+}
+
+class ConcreteObserver{
+    update()
+    // other methods()
+
+}
+
+class ConcreteSubject{
+    registerObserver()
+    removeObserver()
+    notifyObservers()
+    getState()
+    setState()    
+}
+
+Subject <|.. ConcreteSubject
+Observer <|.. ConcreteObserver
+ConcreteObserver --left->ConcreteSubject
+Subject --right-> Observer
+
+@enduml
