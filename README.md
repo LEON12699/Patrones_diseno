@@ -186,6 +186,9 @@
 
 ### Estructura
 
+![Memento structure](http://www.plantuml.com/plantuml/svg/NL11RW8n3Bpx5P5wMGxmW0eX2hrMFN14FPXTTpVQ9AuSRwiAyNT24kYgFjcJySp4swWeEdbdp1jv2iecgaojJa80SRJX2mMzQHt6QCwmmtRiXQVGxTcncAVNNB1ZwKWATdA912yY_3C7BW1GPDx5zZQWfgSpc5GfX5Bfy9kQHMw5Oc9GO_ppFTjY9bAX_m8zwU4sL97AQWh3P86olqSXnP6aAF0ZKnu7UpF_VJWVFpBSyO4zwM13NmtI9RZ9ihDVhL8xw6fJb-5-slNIqQSk-SySO4kXI_U_0W00 "Memento structure")
+
+
 </details>
 
 

@@ -26,8 +26,8 @@ class ConcreteMediator{
     component1: ConcreteColleague1
     component2: ConcreteColleague2
     notify( sender )
-    reactComponent1()
-    reactComponent2()
+    reactCollegue1()
+    reactCollegue2()
 
 }
 

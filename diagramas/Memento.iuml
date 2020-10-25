@@ -1,0 +1,33 @@
+@startuml  Memento structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+class Originator {
+    state
+    save()
+    restore( m: Memento)
+}
+
+
+class Memento{
+    state
+    getState()
+    Memento( state )
+}
+
+class Caretaker{
+    originator
+    history: Memento[]
+    doSomething()
+    undo()
+}
+
+Originator .right.>Memento
+Memento <-left-o Caretaker
+
+@enduml
