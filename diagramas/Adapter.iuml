@@ -1,0 +1,25 @@
+@startuml Adapter_object structure
+skinparam class {
+BackgroundColor #FFA509
+BorderColor black
+ArrowColor black
+}
+
+interface Target{
+    request()
+
+} 
+
+class Adapter{
+    request()
+}
+
+class Adaptee{
+    specificRequest()
+}
+
+client -right-> Target
+Target <|.. Adapter
+Adapter -right-> Adaptee
+
+@enduml

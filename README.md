@@ -62,6 +62,17 @@
 
 <details>
     <summary style="color:green">Adapter</summary>
+
+### Estructura
+ 
+ >Class Adapter
+
+![Adapter_class structure](http://www.plantuml.com/plantuml/svg/NP112y8m38Nl-HK1BteeUF4WYBW9-m7YNMeNPrctpZJ5mzn_Tz0DdBa4tljuB-GKHBF4nc5Mwaw8RyRf4308HoEH2K9jsqwpRZ0vFUJQr1Nxs9PdxppZgYYotNOFkUUIE6btDqAGCVlthp00f9Ihvega1no7wHKfo7e3CE0CJEVy4yFIf-I7ZenzM7DPSfPQGSMsUeewJfMG5kBXezJS0bFQKZnHMuwV-G80 "Adapter_class structure")
+
+ >Object Adapter
+
+ ![Adapter_object structure](http://www.plantuml.com/plantuml/svg/NP112y8m38Nl-HK1BtfGl7WGH9p2Ve1ubwwDixgrCqtnCFVV7NIYCvS7xttaXUo2A9POLvWPrGZnsHStqe91E6g9J13krZMALOswKY5W2tkbxoNxwCp1LvvnakVPQhc6lMT3dBoYwY78cFtpr-W0hEjhBaeJdXIN92rWFqoFI46cCu0E0LBLSDC_qOrpIdbeIDkBrSSnPya9pjcMLvblXqf8WflNOl4fWK6_xB0TO4VEz2zw0m00 "Adapter_object structure")
+
 </details>
 
 <details>
