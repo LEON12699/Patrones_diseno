@@ -237,6 +237,8 @@
 
 ### Estructura
 
+![Visitor structure](http://www.plantuml.com/plantuml/svg/bP91RiCW44NtSmgaRkn5E41KMJ5khj0znPCK1KCqu7IHzkur0PjORIgL3U8n_mqWTZv82kDW67lLNWT7p0SQLHW90Vn9sxCaEJ1bfFVi2aAgqv7SQFlEcQduwUKsG3ZgaH9xCrCHj4Jkunvy0O2s0UaW5IxThi2cSOahLk6MxGqEQ4DR_yv53L5KF9adZLGApw6wi6tMrx4udNqMfye3odZ5jgfNmSSviSg9lt8vs3ch20FcBV__cqP-4ywFzVp9-GzlsUMaZ--1pmR8SuhDxHQwmW8weoFTR1gs2ExOmwwSywR82ssA6c27jfy-sJS0 "Visitor structure")
+
 </details>
 
 

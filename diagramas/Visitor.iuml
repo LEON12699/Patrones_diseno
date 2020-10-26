@@ -1,0 +1,48 @@
+@startuml  Visitor structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+interface Visitor {
+    visit (e: ElementA)
+    visit (e: ElementB)
+
+}
+
+interface Element{
+    accept(v :Visitor)
+}
+
+class ElementA{
+    featureA()
+    accept(v:Visitor)
+}
+
+class ElementB{
+    featureB()
+    accept(v:Visitor)
+}
+
+
+class ConcreteVisitors{
+    visit (e: ElementA)
+    visit (e: ElementB)
+    
+}
+
+
+Visitor <|.. ConcreteVisitors
+Visitor <.right. Element
+Element <|.. ElementA
+Element  <|.. ElementB
+Client -->  Element
+Client --> ConcreteVisitors
+Visitor ...> ElementA
+Visitor ..> ElementB
+
+
+@enduml
