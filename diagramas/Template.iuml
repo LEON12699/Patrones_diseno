@@ -1,0 +1,35 @@
+@startuml  TemplateMehod structure
+
+skinparam class {
+BackgroundColor #DDDDDD
+BorderColor black
+ArrowColor black
+}
+
+
+abstract AbstractClass {
+    templateMethod()
+    step1()
+    step2()
+    step3()
+    step4()
+}
+
+
+Class ConcreteClass1{
+    step3()
+    step4()
+}
+
+class ConcreteClass2{
+    step1()
+    step2()
+    step3()
+    step4()
+}
+    
+AbstractClass <|-- ConcreteClass1
+AbstractClass <|-- ConcreteClass2
+
+
+@enduml

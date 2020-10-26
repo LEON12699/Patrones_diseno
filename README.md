@@ -217,6 +217,8 @@
 
 ### Estructura
 
+![Strategy structure](http://www.plantuml.com/plantuml/svg/RL1BRi903Dtx59Qw2Ojm0eGewGdQ4xWpReYOZ2kFHwM2tht3X0IarZi_lu-UTyb8BOy1ySsKZFjlJARPMLO6ICSXVfBIY2vGIdY6FRbZhvAZxoI8ujDB7TYBUjO9Um-51C-gylK8_03048trWnpVuyw0PVZ4BXjZuybeLRbTZUoaI4usiT9DD2riiqap7rRrCh8TnBzIz38srSpDNaxPU9Rz6ts5hf9RC6xQ5himSBG5abQ7_c3jTca1IvtDPRt-4rJQx3ZwykTV "Strategy structure")
+
 </details>
 
 
@@ -224,6 +226,9 @@
     <summary style="color:green">Template Method </summary>
 
 ### Estructura
+
+![TemplateMehod structure](http://www.plantuml.com/plantuml/svg/dL6x3i8m3Dpz5P5OOEX0OMJeWvMD7qWJ2r3Jfd8SCHJ-dVGX54022K_datrtbZF7ajWtHeWZDfsHZ0SyMoqSarVi2G5SVMaxIR8HoaZdH0-5LFM9h6zrQOqbiTYF1OKbZJHnbGb3a1FPQqpS0K1MGLqg5laCobbNXE9d30uvbgkHT8pTEi9fX3SHtWOyE4o2fMqL8UFOhVjl6-fp8Ut_i1uwU3rhTqkIjoW_9z9mGuQj3ezv0000 "TemplateMehod structure")
+
 </details>
 
 
